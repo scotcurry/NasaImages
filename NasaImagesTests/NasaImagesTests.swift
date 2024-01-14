@@ -33,4 +33,21 @@ final class NasaImagesTests: XCTestCase {
         }
     }
 
+    func testGetListOfImageDays() async throws {
+        
+        let startDate = Date.now
+        let dataHandler = NasaApiHandler()
+        let returnData = try await dataHandler.retrieveListOfImages(startDate: startDate)
+        let url = returnData[0].url
+        let startsWithRightInfo = url.hasPrefix("https://")
+        XCTAssert(startsWithRightInfo)
+    }
+    
+    func testGetDailyImage() async throws {
+        
+        let urlImageString = "https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_960.jpg"
+        let imageDownloader = ImageDownloadHandler()
+        let umImage = try await imageDownloader.retrieveImageFromUrl(urlString: urlImageString)
+        XCTAssertNotNil(umImage)
+    }
 }
