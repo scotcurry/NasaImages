@@ -47,7 +47,7 @@ final class NasaImagesTests: XCTestCase {
         
         let urlImageString = "https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_960.jpg"
         let imageDownloader = ImageDownloadHandler()
-        let umImage = try await imageDownloader.retrieveImageFromUrl(urlString: urlImageString)
-        XCTAssertNotNil(umImage)
+        let uiImage = try await imageDownloader.retrieveImageFromUrl(urlString: urlImageString)
+        XCTAssertNotNil(uiImage)
     }
 }

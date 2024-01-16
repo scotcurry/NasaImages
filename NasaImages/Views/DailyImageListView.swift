@@ -6,30 +6,37 @@
 //
 
 import SwiftUI
+import OSLog
 
 struct DailyImageListView: View {
     
-    let imageList: [NasaImageInformation]
+    @Binding var startDate: Date
+    @StateObject private var listOfDailyImages = ListOfDailyImages()
+    
+    let logger = Logger()
+    
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(imageList) { listItem in
-                    NavigationLink(listItem.title, value: listItem)
-                }
+            List(listOfDailyImages.listOfDailyImages) { listItem in
+                NavigationLink(listItem.title, value: listItem)
             }
-            Text("Total Days: \(imageList.count)")
+            .task {
+                await listOfDailyImages.retreiveListOfImages(startDate: startDate)
+            }
             .navigationTitle("Daily Images")
-            .navigationDestination(for: NasaImageInformation.self) { listItem in DailyImageDetailView(dailyImageInfo: listItem)
+            .navigationDestination(for: NasaImageInformation.self) { listItem in 
+                DailyImageDetailView(title: listItem.title, explanation: listItem.explanation, urlString: listItem.url)
             }
+            Text("Total Days: \(listOfDailyImages.listOfDailyImages.count)")
         }
     }
 }
 
 struct DailyImageListViewPreview_Previews: PreviewProvider {
     
-    static var imageList = NasaImageInformation.imageList
+    @State static var startDate = Date.now
     
     static var previews: some View {
-        DailyImageListView(imageList: imageList)
+        DailyImageListView(startDate: $startDate)
     }
 }

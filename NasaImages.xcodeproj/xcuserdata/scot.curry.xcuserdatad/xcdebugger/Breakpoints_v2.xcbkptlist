@@ -3,4 +3,208 @@
    uuid = "9AC8EE7B-FD2D-409C-A6CE-7B3218196B65"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFC3E594-E64D-46AF-8C89-21B8E54018F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaImagesTests/NasaImagesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "testGetDailyImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EFC3E594-E64D-46AF-8C89-21B8E54018F7 - 65216756a4f09bbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NasaImagesTests.NasaImagesTests.testGetDailyImage() async throws -&gt; ()"
+                  moduleName = "NasaImagesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImagesTests/NasaImagesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "EFC3E594-E64D-46AF-8C89-21B8E54018F7 - 65216756a4f09bbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NasaImagesTests.NasaImagesTests.testGetDailyImage() async throws -&gt; ()"
+                  moduleName = "NasaImagesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImagesTests/NasaImagesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "retrieveImageFromUrl(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - bc1a62cfd33e7ff1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "5648">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - d593ba69a5caa3dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - 9c8ad5588150b3ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - 6cf2fd601e7e51ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - bc1a62cfd33e7ff1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "5632">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - d593ba69a5caa3dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - 9c8ad5588150b3ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "8D0CB656-710E-4B7D-8026-89DADD5A9C09 - 6cf2fd601e7e51ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NasaImages.ImageDownloadHandler.retrieveImageFromUrl(urlString: Swift.String) async throws -&gt; __C.UIImage"
+                  moduleName = "NasaImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scot.curry/XCodeProjects/NasaImages/NasaImages/ProcessHandlers/ImageDownloadHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56AEF0AB-B3AA-44EF-89C0-E337723697BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaImages/ObservableObjects/ListOfDailyImages.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "retreiveListOfImages(startDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

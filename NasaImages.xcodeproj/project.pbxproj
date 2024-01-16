@@ -18,7 +18,7 @@
 		895ED4032B53137E00750F9D /* HttpErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4022B53137E00750F9D /* HttpErrorEnum.swift */; };
 		895ED4052B53279F00750F9D /* NasaApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4042B53279F00750F9D /* NasaApiData.swift */; };
 		895ED4082B5335B800750F9D /* NasaApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4072B5335B800750F9D /* NasaApiHandler.swift */; };
-		895ED40B2B53441300750F9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED40A2B53441300750F9D /* ContentView.swift */; };
+		895ED40B2B53441300750F9D /* SelectFirsDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED40A2B53441300750F9D /* SelectFirsDayView.swift */; };
 		895ED40D2B53446D00750F9D /* DailyImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED40C2B53446D00750F9D /* DailyImageListView.swift */; };
 		895ED40F2B53565000750F9D /* DailyImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED40E2B53565000750F9D /* DailyImageDetailView.swift */; };
 		895ED4112B535E1500750F9D /* ImageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4102B535E1500750F9D /* ImageDownloadHandler.swift */; };
@@ -59,7 +59,7 @@
 		895ED4022B53137E00750F9D /* HttpErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpErrorEnum.swift; sourceTree = "<group>"; };
 		895ED4042B53279F00750F9D /* NasaApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaApiData.swift; sourceTree = "<group>"; };
 		895ED4072B5335B800750F9D /* NasaApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaApiHandler.swift; sourceTree = "<group>"; };
-		895ED40A2B53441300750F9D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		895ED40A2B53441300750F9D /* SelectFirsDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFirsDayView.swift; sourceTree = "<group>"; };
 		895ED40C2B53446D00750F9D /* DailyImageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyImageListView.swift; sourceTree = "<group>"; };
 		895ED40E2B53565000750F9D /* DailyImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyImageDetailView.swift; sourceTree = "<group>"; };
 		895ED4102B535E1500750F9D /* ImageDownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadHandler.swift; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 		895ED4092B5343D700750F9D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				895ED40A2B53441300750F9D /* ContentView.swift */,
+				895ED40A2B53441300750F9D /* SelectFirsDayView.swift */,
 				895ED40C2B53446D00750F9D /* DailyImageListView.swift */,
 				895ED40E2B53565000750F9D /* DailyImageDetailView.swift */,
 			);
@@ -330,7 +330,7 @@
 			files = (
 				895ED40D2B53446D00750F9D /* DailyImageListView.swift in Sources */,
 				895ED4052B53279F00750F9D /* NasaApiData.swift in Sources */,
-				895ED40B2B53441300750F9D /* ContentView.swift in Sources */,
+				895ED40B2B53441300750F9D /* SelectFirsDayView.swift in Sources */,
 				895ED4032B53137E00750F9D /* HttpErrorEnum.swift in Sources */,
 				895ED40F2B53565000750F9D /* DailyImageDetailView.swift in Sources */,
 				895ED4002B530F3800750F9D /* NasaImageInformation.swift in Sources */,
