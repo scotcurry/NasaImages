@@ -10,6 +10,7 @@ import SwiftUI
 struct SelectFirsDayView: View {
     
     @State private var date = Date()
+    @State var path = NavigationPath()
        
     let validDateRange: ClosedRange<Date> = {
         let calendar = Calendar.current
@@ -21,7 +22,7 @@ struct SelectFirsDayView: View {
    
     var body: some View {
        
-        NavigationStack() {
+        NavigationStack {
             VStack {
                 DatePicker(
                    "Start Date",
@@ -34,7 +35,7 @@ struct SelectFirsDayView: View {
                .labelsHidden()
                
                NavigationLink("First Day Image") {
-                   DailyImageListView(startDate: $date)
+                   DailyImageListView(path: $path, startDate: $date)
                }
            }
        }

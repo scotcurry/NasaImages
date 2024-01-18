@@ -10,18 +10,16 @@ import OSLog
 
 struct DailyImageListView: View {
     
+    @Binding var path: NavigationPath
     @Binding var startDate: Date
     @StateObject private var listOfDailyImages = ListOfDailyImages()
     
     let logger = Logger()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List(listOfDailyImages.listOfDailyImages) { listItem in
                 NavigationLink(listItem.title, value: listItem)
-            }
-            .task {
-                await listOfDailyImages.retreiveListOfImages(startDate: startDate)
             }
             .navigationTitle("Daily Images")
             .navigationDestination(for: NasaImageInformation.self) { listItem in 
@@ -29,14 +27,21 @@ struct DailyImageListView: View {
             }
             Text("Total Days: \(listOfDailyImages.listOfDailyImages.count)")
         }
+        .onAppear {
+            Task {
+                print("Calling onAppear")
+                await listOfDailyImages.retreiveListOfImages(startDate: startDate)
+            }
+        }
     }
 }
 
 struct DailyImageListViewPreview_Previews: PreviewProvider {
     
     @State static var startDate = Date.now
+    @State static var path = NavigationPath()
     
     static var previews: some View {
-        DailyImageListView(startDate: $startDate)
+        DailyImageListView(path: $path, startDate: $startDate)
     }
 }

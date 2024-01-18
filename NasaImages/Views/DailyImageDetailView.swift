@@ -10,12 +10,14 @@ import SwiftUI
 struct DailyImageDetailView: View {
     
     @StateObject private var imageForTheDay = ImageForTheDay()
-    // let dailyImageInfo: NasaImageInformation
+
     let title: String
     let explanation: String
     let urlString: String
+    // @Binding var path: NavigationPath
     
     var body: some View {
+        
         VStack {
             Text(title)
             Text(explanation)
@@ -33,6 +35,7 @@ struct DailyImageDetailView: View {
 
 struct DailyImageDetailViewPreview_Previews: PreviewProvider {
 
+    @State static var path = NavigationPath()
     static var imageDay = NasaImageInformation.imageList
     static var title = imageDay[0].title
     static var explanation = imageDay[0].explanation
