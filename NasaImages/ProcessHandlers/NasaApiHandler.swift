@@ -36,7 +36,8 @@ struct NasaApiHandler {
         
         do {
             let nasaApiData: [NasaApiData] = try JSONDecoder().decode([NasaApiData].self, from: jsonData)
-            return nasaApiData
+            let sortedNasaApiData = nasaApiData.sorted(by: { $0.dateString > $1.dateString })
+            return sortedNasaApiData
         } catch let jsonError {
             print("JSON Parsing Error: \(jsonError)")
         }

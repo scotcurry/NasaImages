@@ -23,6 +23,7 @@
 		895ED40F2B53565000750F9D /* DailyImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED40E2B53565000750F9D /* DailyImageDetailView.swift */; };
 		895ED4112B535E1500750F9D /* ImageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4102B535E1500750F9D /* ImageDownloadHandler.swift */; };
 		895ED4132B535EF500750F9D /* ImageForTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ED4122B535EF500750F9D /* ImageForTheDay.swift */; };
+		897367FE2B5A04AB005CED2D /* DaysToSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897367FD2B5A04AB005CED2D /* DaysToSelect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		895ED40E2B53565000750F9D /* DailyImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyImageDetailView.swift; sourceTree = "<group>"; };
 		895ED4102B535E1500750F9D /* ImageDownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadHandler.swift; sourceTree = "<group>"; };
 		895ED4122B535EF500750F9D /* ImageForTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageForTheDay.swift; sourceTree = "<group>"; };
+		897367FD2B5A04AB005CED2D /* DaysToSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysToSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				895ED3FF2B530F3800750F9D /* NasaImageInformation.swift */,
 				895ED4042B53279F00750F9D /* NasaApiData.swift */,
+				897367FD2B5A04AB005CED2D /* DaysToSelect.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				895ED40B2B53441300750F9D /* SelectFirsDayView.swift in Sources */,
 				895ED4032B53137E00750F9D /* HttpErrorEnum.swift in Sources */,
 				895ED40F2B53565000750F9D /* DailyImageDetailView.swift in Sources */,
+				897367FE2B5A04AB005CED2D /* DaysToSelect.swift in Sources */,
 				895ED4002B530F3800750F9D /* NasaImageInformation.swift in Sources */,
 				895ED4112B535E1500750F9D /* ImageDownloadHandler.swift in Sources */,
 				895ED3FD2B530D5500750F9D /* ListOfDailyImages.swift in Sources */,

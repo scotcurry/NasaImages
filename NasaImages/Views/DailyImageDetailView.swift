@@ -14,13 +14,17 @@ struct DailyImageDetailView: View {
     let title: String
     let explanation: String
     let urlString: String
-    // @Binding var path: NavigationPath
     
     var body: some View {
         
         VStack {
             Text(title)
+                .font(.title2)
+                .fontWeight(.bold)
+                .foregroundColor(Color.blue)
+                .padding()
             Text(explanation)
+                .padding()
             Image(uiImage: imageForTheDay.imageOfTheDay)
                 .resizable()
                 .frame(width: 200, height: 300, alignment: .topLeading)
@@ -40,6 +44,7 @@ struct DailyImageDetailViewPreview_Previews: PreviewProvider {
     static var title = imageDay[0].title
     static var explanation = imageDay[0].explanation
     static var urlString = imageDay[0].url
+
     
     static var previews: some View {
         DailyImageDetailView(title: title, explanation: explanation, urlString: urlString)

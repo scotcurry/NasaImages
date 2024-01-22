@@ -29,7 +29,7 @@ struct DailyImageListView: View {
         }
         .onAppear {
             Task {
-                print("Calling onAppear")
+                print("Calling DailyImageListView onAppear")
                 await listOfDailyImages.retreiveListOfImages(startDate: startDate)
             }
         }
